@@ -1,4 +1,9 @@
-int aff(int x)
+int aff(int type,int x)
 {
-    printf("%s",x);
+    if(type==1){
+        printf("%d\n",x);
+    }
+    if(type==2){
+        printf("%s\n",x);
+    }
 }

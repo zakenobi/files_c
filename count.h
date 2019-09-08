@@ -6,6 +6,6 @@ int mult(int x, int y)
         return "woaw !";
     }
     else {
-        return "pff";
+        return "pff...";
     }
 }
